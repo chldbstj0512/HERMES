@@ -5,6 +5,7 @@
 # About Project
 > Parenting Multitask Helper with Open CV </br>
 2022 LG Girls ICT Hackathon Grand finale (LG GICT 최종 4위 출품작)</br>
+Google Mediapipe Facemesh 기반으로 아기 상태를 카메라로 자동 탐지하고, 라즈베리파이-아두이노 기반 AIoT 모듈과 안드로이드 앱과 연동해 서비스를 제공합니다.</br>
 
 <div>
     <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=Android%20Studio&logoColor=white"/>
