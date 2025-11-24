@@ -51,11 +51,10 @@ camera.py put baby's state in queue.</br>
 |Sleep|else|
 |None|No detect above threshold|
 
-</br>
-
 > Init_Stat only can be Wake/Sleep
 >> If baby is wake, blink count decreasing, it goes Asleep.</br>
 >> If baby is sleep, blink ocunt increasing, it goes Awake.</br>
+</br>
 </br>
 
 #### Final result using for GPIO
