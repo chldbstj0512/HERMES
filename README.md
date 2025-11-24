@@ -1,9 +1,8 @@
 <div align = center>
     <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=HERMES&fontSize=90" />
 </div>
-
 # About The Project
-> Parenting Multitask Helper with Open CV </br>2022 LG Girls ICT Hackathon Grand finale
+> Parenting Multitask Helper with Open CV </br>2022 LG Girls ICT Hackathon Grand finale (LG GICT 최종 4위 출품작)
 
 <div>
     <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=Android%20Studio&logoColor=white"/>
@@ -186,9 +185,9 @@ camera.py put baby's state in queue.</br>
 
 
 # Contributor
-Choi Yunseo : camera detecting, realtime status judgement, 3D print </br>
-Lee Jieun : Android application, socket </br>
-Lee yein : GPIO, socket, overall running of the project</br>
+최윤서 : camera detecting, realtime status judgement, 3D print </br>
+이지은 : Android application, socket </br>
+이예인 : GPIO, socket, overall running of the project</br>
 
 # Usage
 
