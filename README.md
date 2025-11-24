@@ -17,11 +17,12 @@ Google Mediapipe Facemesh 기반으로 아기 상태를 카메라로 자동 탐�
     <img src="![readme_app_1](https://user-images.githubusercontent.com/100847440/200597432-03ac2e1d-6ccd-47c4-9786-a2e4edf24b2b.jpeg)"/>
 <img src="![readme_app_2](https://user-images.githubusercontent.com/100847440/200597460-9160d898-30cd-42e7-93db-ceedfff15560.jpeg)"/>
 </div>
+</br>
 
 # Contributor
 최윤서 : AI Video Processing (facial detecting), Realtime status judgement, 3D print </br>
 이지은 : Android application, socket </br>
-이예인 : GPIO, socket, overall running of the project</br>
+이예인 : GPIO, socket, overall running of the project</br></br>
 
 # Project
 
@@ -42,7 +43,6 @@ camera.py put baby's state in queue.</br>
 |Close|1|
 
 </br> count rate = Open/Queue's size</br>
-
 |count rate||
 |----------|----|
 |Wake|>=0.8|
@@ -54,6 +54,7 @@ camera.py put baby's state in queue.</br>
 > Init_Stat only can be Wake/Sleep
 >> If baby is wake, blink count decreasing, it goes Asleep.</br>
 >> If baby is sleep, blink ocunt increasing, it goes Awake.</br>
+</br>
 
 #### Final result using for GPIO
 > STATS
@@ -69,6 +70,7 @@ camera.py put baby's state in queue.</br>
 |WAKE|LED ON, Mobile On, Music on, Lamp more bright|
 |SLEEP|All GPIO is Off|
 |ASLEEP|Mobile On, Led off, Music off, Lamp darker|
+</br>
 
 ### Handling APP Signal
 
@@ -77,9 +79,7 @@ camera.py put baby's state in queue.</br>
 > When the child state changes, it switches back to automatic mode.
 >> Wake -> Asleep
 >> Sleep -> Awake
-
-
-
+</br>
 
 ### Andriod App
 |State Notification and Control||
@@ -188,8 +188,7 @@ encoding : utf-8 </br>
 
 
 # Usage
-
-</br> raspi/camera.py : facial detecting with picamera using Mediapipe </br>
+raspi/camera.py : facial detecting with picamera using Mediapipe </br>
 ``` python3 camera.py``` </br>
 </br> raspi/baby.py : realtime baby's status judgement linked with camera.py and Gpio operation </br>
 ``` python3 main.py ``` </br>
@@ -200,7 +199,7 @@ encoding : utf-8 </br>
 </br> raspi/music.py : music on off and change</br>
 ``` python3 music.py ``` </br>
 </br> raspi/network.py : socket and app signal handling</br>
-``` python3 network.py ``` </br>
+``` python3 network.py ``` </br></br>
 
 # References
 
