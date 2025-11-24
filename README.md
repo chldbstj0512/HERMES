@@ -18,7 +18,7 @@
 </div>
 
 # Contributor
-최윤서 : camera detecting, realtime status judgement, 3D print </br>
+최윤서 : AI Video Processing (facial detecting), Realtime status judgement, 3D print </br>
 이지은 : Android application, socket </br>
 이예인 : GPIO, socket, overall running of the project</br>
 
