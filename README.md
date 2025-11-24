@@ -1,8 +1,10 @@
 <div align = center>
     <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=HERMES&fontSize=90" />
 </div>
-# About The Project
-> Parenting Multitask Helper with Open CV </br>2022 LG Girls ICT Hackathon Grand finale (LG GICT 최종 4위 출품작)
+
+# About Project
+> Parenting Multitask Helper with Open CV </br>
+2022 LG Girls ICT Hackathon Grand finale (LG GICT 최종 4위 출품작)</br>
 
 <div>
     <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=Android%20Studio&logoColor=white"/>
