@@ -17,96 +17,10 @@
 <img src="![readme_app_2](https://user-images.githubusercontent.com/100847440/200597460-9160d898-30cd-42e7-93db-ceedfff15560.jpeg)"/>
 </div>
 
-# Directory
-```
-.
-├── HERMES_APPLICATION
-│   └── app
-│       └── src
-│           ├── main
-│               ├── AndroidManifest.xml
-│               ├── java
-│               │   └── com
-│               │       └── example
-│               │           └── hermes_application
-│               │               ├── BabyVideoActivity.java
-│               │               ├── IntroActivity.java
-│               │               ├── MainActivity.java
-│               │               └── MusicActivity.java
-│               └── res
-│                   └── layout
-│                       ├── activity_baby_video.xml
-│                       ├── activity_intro.xml
-│                       ├── activity_main.xml
-│                       └── activity_music.xml
-│  
-├── raspi
-│   ├── asset
-│   ├── baby.py
-│   ├── camera.py
-│   ├── constant.py
-│   ├── led.py
-│   ├── main.py
-│   ├── mobile.py
-│   ├── music.py
-│   ├── network.py
-│   ├── processor
-│   │   ├── face_detector.py
-│   │   ├── __init__.py
-│   │   ├── model
-│   │   │   └── haarcascades
-│   │   │       ├── haarcascade_eye.xml
-│   │   │       └── haarcascade_frontalface_default.xml 
-│   │   └── simple_streamer.py
-│   │   
-│   ├── templates
-│   │   └── index.html
-│   ├── utils.py
-│   └── videostream.py
-├── README.md
-
-```
-
-
-# Environment
-
-## Raspberry pi 4
-code editor : VScode with ssh connection to pi</br>
-model name : Raspberry Pi 4 Model B Rev 1.5 </br>
-CPU: ARM Cortex-A72 1.5GHz</br>
-RAM: 2GB </br>
-Linux version 5.15.76-v7l+ (dom@buildbot) (arm-linux-gnueabihf-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1597 SMP Fri Nov 4 12:14:58 GMT 2022 </br>
-
-
-## Android
-'com.android.application': version '7.3.0' </br>
-'com.android.library' : version '7.3.0' </br>
-</br>
-Compile SDK : 32</br>
-min SDK : 21</br>
-target SDK : 32</br>
-Java Version : VERSION_1_8 </br>
-</br>
-xml version : 1.0 </br>
-encoding : utf-8 </br>
-
- 
- 
-# Dependency
-### Raspberry Pi
-> Open CV 
->> opencv-python : 4.6.0.6</br>
->> mediapipe-rpi4 : 0.8.8</br>
->> Python : 3.7.3
->> etc.
-
-### Android
-> Manifest
->>INTERNET Permission</br>
->>ACCESS_NETWORK_STATE Permission
-
-### Demo
-> 3D printing
+# Contributor
+최윤서 : camera detecting, realtime status judgement, 3D print </br>
+이지은 : Android application, socket </br>
+이예인 : GPIO, socket, overall running of the project</br>
 
 # Project
 
@@ -185,11 +99,95 @@ camera.py put baby's state in queue.</br>
 
 </br>
 
+# Directory
+```
+.
+├── HERMES_APPLICATION
+│   └── app
+│       └── src
+│           ├── main
+│               ├── AndroidManifest.xml
+│               ├── java
+│               │   └── com
+│               │       └── example
+│               │           └── hermes_application
+│               │               ├── BabyVideoActivity.java
+│               │               ├── IntroActivity.java
+│               │               ├── MainActivity.java
+│               │               └── MusicActivity.java
+│               └── res
+│                   └── layout
+│                       ├── activity_baby_video.xml
+│                       ├── activity_intro.xml
+│                       ├── activity_main.xml
+│                       └── activity_music.xml
+│  
+├── raspi
+│   ├── asset
+│   ├── baby.py
+│   ├── camera.py
+│   ├── constant.py
+│   ├── led.py
+│   ├── main.py
+│   ├── mobile.py
+│   ├── music.py
+│   ├── network.py
+│   ├── processor
+│   │   ├── face_detector.py
+│   │   ├── __init__.py
+│   │   ├── model
+│   │   │   └── haarcascades
+│   │   │       ├── haarcascade_eye.xml
+│   │   │       └── haarcascade_frontalface_default.xml 
+│   │   └── simple_streamer.py
+│   │   
+│   ├── templates
+│   │   └── index.html
+│   ├── utils.py
+│   └── videostream.py
+├── README.md
 
-# Contributor
-최윤서 : camera detecting, realtime status judgement, 3D print </br>
-이지은 : Android application, socket </br>
-이예인 : GPIO, socket, overall running of the project</br>
+```
+
+
+# Environment
+
+## Raspberry pi 4
+code editor : VScode with ssh connection to pi</br>
+model name : Raspberry Pi 4 Model B Rev 1.5 </br>
+CPU: ARM Cortex-A72 1.5GHz</br>
+RAM: 2GB </br>
+Linux version 5.15.76-v7l+ (dom@buildbot) (arm-linux-gnueabihf-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1597 SMP Fri Nov 4 12:14:58 GMT 2022 </br>
+
+
+## Android
+'com.android.application': version '7.3.0' </br>
+'com.android.library' : version '7.3.0' </br>
+</br>
+Compile SDK : 32</br>
+min SDK : 21</br>
+target SDK : 32</br>
+Java Version : VERSION_1_8 </br>
+</br>
+xml version : 1.0 </br>
+encoding : utf-8 </br>
+ 
+# Dependency
+### Raspberry Pi
+> Open CV 
+>> opencv-python : 4.6.0.6</br>
+>> mediapipe-rpi4 : 0.8.8</br>
+>> Python : 3.7.3
+>> etc.
+
+### Android
+> Manifest
+>>INTERNET Permission</br>
+>>ACCESS_NETWORK_STATE Permission
+
+### Demo
+> 3D printing
+
 
 # Usage
 
@@ -206,7 +204,8 @@ camera.py put baby's state in queue.</br>
 </br> raspi/network.py : socket and app signal handling</br>
 ``` python3 network.py ``` </br>
 
-# Reference
+# References
+
 1. Camera detecting (camera.py)</br>
 (1) MediaPipe facemesh</br> https://google.github.io/mediapipe/solutions/face_mesh.html</br>
 (2) openCV with haarcascade ( less accurate than (1) )</br>
